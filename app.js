@@ -2,14 +2,17 @@ const express = require('express')
 const dotenv = require('dotenv')
 const cors = require('cors')
 const schoolRoutes = require('./routes/schoolRoutes')
-
-dotenv.config()
-
 const app = express()
+const { createTable } = require('./models/schoolModel')
+
+createTable()
+  .then(() => console.log('Table created'))
+  .catch(err => console.error(err))
+  
+dotenv.config()
 
 app.use(cors())
 app.use(express.json())
-
 
 app.use('/api', schoolRoutes)
 
