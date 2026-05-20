@@ -115,7 +115,7 @@ Server will run at:
 
 ```
 
-[http://localhost:5000](http://localhost:5000)
+http://localhost:5000
 
 ```
 
@@ -194,14 +194,14 @@ Response:
 Use the following Postman collection to test the APIs:
 
 Postman Link:  
-
+https://www.postman.com/warped-satellite-75408/workspace/student-management/collection/45041886-2d944cd4-76db-47fb-9be2-9d68deddfb4b?action=share&creator=45041886&active-environment=45041886-4eed05b4-f8d1-4ab9-bc82-331de3d9cd54
 
 ---
 
 ## Deployment
 
-The API can be deployed using platforms like Render.  
-Ensure environment variables and database configuration are properly set.
+The API is deployed using platforms in Render.  
+
 
 ---
 
